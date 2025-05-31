@@ -24,6 +24,7 @@ const Home = () => {
           <div>
             <h2 className="text-2xl font-semibold text-center mb-4">My Projects</h2>
             <ProjectSection />
+            <h1>ขอลองนิดนึง</h1>
           </div>
           
           <div>
