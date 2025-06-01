@@ -22,7 +22,7 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
         
           <div>
-            <h2 className="text-2xl font-semibold text-center mb-4">My Projects test doo</h2>
+            <h2 className="text-2xl font-semibold text-center mb-4">My Projects</h2>
             <ProjectSection />
           </div>
           
