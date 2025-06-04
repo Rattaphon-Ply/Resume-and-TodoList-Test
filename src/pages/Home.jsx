@@ -1,12 +1,16 @@
 
 
 import EducationList from "@/components/home/education/EducationList";
+import TextMyEducation from "@/components/home/education/TextMyEducation";
 import ExperienceSection from "@/components/home/experience/ExperienceSection";
+import TextMyExp from "@/components/home/experience/TextMyExp";
 import NameEng from "@/components/home/name/NameEng";
 import NameThai from "@/components/home/name/NameThai";
 import PictureMe from "@/components/home/PictureMe"
 import ProjectSection from "@/components/home/project/ProjectSection";
+import TextMyProjects from "@/components/home/project/TextMyProjects";
 import Skill from "@/components/home/skills/Skill";
+import TextMySkills from "@/components/home/skills/TextMySkills";
 
 
 const Home = () => {
@@ -22,12 +26,12 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
         
           <div>
-            <h2 className="text-2xl font-semibold text-center mb-4">My Projects</h2>
+            <TextMyProjects />
             <ProjectSection />
           </div>
           
           <div>
-            <h2 className="text-2xl font-semibold text-center mb-4">My Experiences</h2>
+            <TextMyExp />
             <ExperienceSection />
           </div>
 
@@ -35,12 +39,12 @@ const Home = () => {
       </div>
 
       <div>
-        <h1 className="text-3xl font-bold text-center mt-10">My Educations</h1>
+        <TextMyEducation />
         <EducationList />
       </div>
 
       <div>
-        <h1 className="text-3xl font-bold text-center mt-10">My Skills</h1>
+        <TextMySkills />
         <Skill/>
       </div>
       
