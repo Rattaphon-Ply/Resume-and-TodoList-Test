@@ -1,0 +1,7 @@
+:root {
+  --glow-color: rgba(52, 152, 219, 0.6); /* สี glow ใน light mode */
+}
+
+.dark {
+  --glow-color: rgba(52, 152, 219, 0.8); /* สี glow ใน dark mode */
+}
