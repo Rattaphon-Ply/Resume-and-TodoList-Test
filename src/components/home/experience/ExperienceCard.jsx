@@ -8,7 +8,7 @@ const ExperienceCard = ({ head, title, description, image, onMoreClick}) => {
         <h3 className="text-xl text-white font-semibold mb-2">{title}</h3>
         <p className="text-white text-sm w-ful truncate">{description}</p>
         <button
-          className="mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          className="mt-2 px-4 py-2 bg-[#3498DB] text-white rounded hover:bg-blue-600"
           onClick={onMoreClick}
         >
           แสดงเพิ่มเติม
