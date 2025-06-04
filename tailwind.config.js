@@ -58,20 +58,31 @@ module.exports = {
     		},
 			keyframes: {
 				shake: {
-				'0%, 100%': { transform: 'translateX(0)' },
-				'20%': { transform: 'translateX(-4px)' },
-				'40%': { transform: 'translateX(4px)' },
-				'60%': { transform: 'translateX(-4px)' },
-				'80%': { transform: 'translateX(4px)' },
+					'0%, 100%': { transform: 'translateX(0)' },
+					'20%': { transform: 'translateX(-4px)' },
+					'40%': { transform: 'translateX(4px)' },
+					'60%': { transform: 'translateX(-4px)' },
+					'80%': { transform: 'translateX(4px)' },
 				},
 				'fade-in': {
-				'0%': { opacity: 0, transform: 'translateY(20px)' },
-				'100%': { opacity: 1, transform: 'translateY(0)' },
+					'0%': { opacity: 0, transform: 'translateY(20px)' },
+					'100%': { opacity: 1, transform: 'translateY(0)' },
+				},
+				slide: {
+					'0%': { transform: 'translateX(-100%)' },
+					'100%': { transform: 'translateX(100%)' },
+				},
+				'glow-ring': {
+					'0%': { boxShadow: '0 0 10px 2px var(--glow-color)' },
+					'50%': { boxShadow: '0 0 20px 6px var(--glow-color)' },
+					'100%': { boxShadow: '0 0 10px 2px var(--glow-color)' },
 				},
 			},
 			animation: {
 				shake: 'shake 0.5s ease-in-out',
 				'fade-in': 'fade-in 0.8s ease-out forwards',
+				slide: 'slide 2s linear infinite',
+				'glow-ring': 'glow-ring 3s ease-in-out infinite',
 			},
     	}
     },
