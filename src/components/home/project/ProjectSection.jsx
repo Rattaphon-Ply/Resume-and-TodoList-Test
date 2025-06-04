@@ -68,7 +68,7 @@ const ProjectSection = () => {
                                 rel="noopener noreferrer"
                                 className="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
                             >
-                                ไปที่โปรเจกต์
+                                ดูโปรเจกต์
                             </a>
                             ) : (
                             <Link
@@ -79,7 +79,7 @@ const ProjectSection = () => {
                                     setselectedProject(null);
                                 }} // ปิด modal เมื่อเปลี่ยน route
                             >
-                                ไปที่โปรเจกต์
+                                ดูที่โปรเจกต์
                             </Link>
                             )}
                         </div>
