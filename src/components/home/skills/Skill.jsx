@@ -7,6 +7,7 @@ import { SiCss3 } from "react-icons/si";
 import { SiMysql } from 'react-icons/si';
 import { SiJavascript } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
+import { SiExpress } from "react-icons/si";
 
 const Skill = () => {
   return (
@@ -26,6 +27,14 @@ const Skill = () => {
           />  
         </div>
         <span className="text-center font-bold text-lg">Vite+React</span>
+      </li>
+
+      <li className="flex flex-col items-center space-y-4">
+        <SiExpress 
+          size={70} 
+          className="rounded-lg transform transition duration-300 hover:-translate-y-2 hover:scale-105"
+        />
+        <span className="text-center font-bold text-lg">Express</span>
       </li>
 
       <li className="flex flex-col items-center space-y-4">
