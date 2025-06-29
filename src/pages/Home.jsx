@@ -39,13 +39,13 @@ const Home = () => {
       </div>
 
       <div>
-        <TextMyEducation />
-        <EducationList />
+        <TextMySkills />
+        <Skill/>
       </div>
 
       <div>
-        <TextMySkills />
-        <Skill/>
+        <TextMyEducation />
+        <EducationList />
       </div>
       
     </div>
