@@ -8,7 +8,7 @@ const ProjectCard = ({ title, description, image, projectUrl, onMoreClick }) => 
     <div className="block max-w-sm bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden">
       <img src={image} alt={title} className="w-full h-48 object-cover" />
       <div className="p-4 bg-gray-600">
-        <h2 className="text-xl text-white font-semibold mb-2">{title}</h2>
+        <h2 className="text-3xl text-white font-semibold mb-2">{title}</h2>
 
         <p className="text-white text-sm w-full truncate">
           {typeof description === "string"
