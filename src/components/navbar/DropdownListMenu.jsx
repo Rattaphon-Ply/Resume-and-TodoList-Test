@@ -9,8 +9,9 @@ import {
 import { Button } from "../ui/button"
 import { AlignLeft } from 'lucide-react';
 import BookIcon from "./BookIcon";
-import { links } from "@/utils/links";
+
 import { Link } from "react-router";
+import { projects } from "@/utils/ProjectList";
 
 const DropdownListMenu = () => { 
   return (
@@ -23,26 +24,29 @@ const DropdownListMenu = () => {
         </DropdownMenuTrigger>
 
         <DropdownMenuContent>
-            {links.map((item, index) => {
-                const isExternal = item.href.startsWith("http");
+            <Link to={'/'}>
+                <DropdownMenuItem>Home</DropdownMenuItem>
+            </Link>
+            {projects.map((item, index) => {
+                const isExternal = item.projectUrl.startsWith("http");
 
                     return (
                         <DropdownMenuItem key={index} className="p-0">
                         {isExternal ? (
                             <a
-                            href={item.href}
+                            href={item.projectUrl}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="w-full px-2 py-1 text-sm hover:bg-accent rounded"
                             >
-                            {item.label}
+                            {item.title}
                             </a>
                         ) : (
                             <Link
-                            to={item.href}
+                            to={item.projectUrl}
                             className="w-full px-2 py-1 text-sm hover:bg-accent rounded"
                             >
-                            {item.label}
+                            {item.title}
                             </Link>
                         )}
                         </DropdownMenuItem>
