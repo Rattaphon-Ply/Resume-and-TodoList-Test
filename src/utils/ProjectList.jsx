@@ -1,5 +1,6 @@
 import Todo from '@/images/TodoList.png';
 import FP from '@/images/FinalProject.png';
+import Ecom from '@/images/Ecom.png'
 import Mini15Puzz from '@/images/MiniProject15Puzz.png';
 
 export const projects = [
@@ -25,19 +26,39 @@ export const projects = [
       projectUrl: "https://saboard.chesster.net/",
     },
     {
-      title: "15 Puzzle Game",
+      title: "Workshop Ecommerce",
       description: {
-        Tool: [
-          "Editor: VSCode",
+        Frontend : [
+          "Vite + React",
+          "Tailwind CSS",
+          "ShadCN UI",
+          "React Router DOM",
+          "Zustand",
+          "Axios",
+          "React Toastify",
+          "Lucide React",
+          "Lucide React",
+          "Lucide React",
+          "React Hook Form",
+          "Zod",
+          "Zxcvbn",
+          "Material UI",
+          "React Image File Resizer",
         ],
-        Library: [
-          "HTML",
-          "CSS",
-          "JavaScript",
-        ]
+        Backend : [
+          "Node.js + Express.js",
+          "Prisma ORM",
+          "Cloudinary",
+          "Morgan",
+          "CORS",
+          "Nodemon",
+          "BcryptJS",
+          "JSON Web Token (JWT)",
+          "Stripe (Test Mode)",
+        ],
       },
-      image: Mini15Puzz,
-      projectUrl: "https://puzzle-picture-4d45e.web.app/",
+      image: Ecom,
+      projectUrl: "https://github.com/Rattaphon-Ply/WorkShop-Ecommerce",
     },
     {
       title: "Todo List",
@@ -55,6 +76,21 @@ export const projects = [
       },
       image: Todo,
       projectUrl: "/todoList",
+    },
+    {
+      title: "15 Puzzle Game",
+      description: {
+        Tool: [
+          "Editor: VSCode",
+        ],
+        Library: [
+          "HTML",
+          "CSS",
+          "JavaScript",
+        ]
+      },
+      image: Mini15Puzz,
+      projectUrl: "https://puzzle-picture-4d45e.web.app/",
     },
     
   ];
