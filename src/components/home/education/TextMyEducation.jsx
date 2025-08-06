@@ -4,9 +4,6 @@ const TextMyEducation = () => {
         <h2 className="text-2xl font-bold text-center relative z-10">
             My Educations
         </h2>
-        <div className="absolute bottom-0 left-0 w-full h-1 overflow-hidden">
-            <div className="w-full h-full bg-gradient-to-r from-transparent via-slate-500 dark:via-white to-transparent animate-slide"></div>
-        </div>
     </div>
   )
 }
