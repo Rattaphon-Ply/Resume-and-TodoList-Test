@@ -1,7 +1,12 @@
 :root {
   --glow-color: rgba(52, 152, 219, 0.6); /* สี glow ใน light mode */
+  --primary: 240 100% 50%; /* น้ำเงิน */
+  --primary-foreground: 0 0% 100%;
 }
 
 .dark {
   --glow-color: rgba(52, 152, 219, 0.8); /* สี glow ใน dark mode */
+  --primary: 200 100% 60%; /* น้ำเงินสว่างขึ้นใน dark */
+  --primary-foreground: 0 0% 0%;
 }
+
