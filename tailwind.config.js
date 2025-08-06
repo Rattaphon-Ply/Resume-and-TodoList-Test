@@ -84,6 +84,9 @@ module.exports = {
 				slide: 'slide 2s linear infinite',
 				'glow-ring': 'glow-ring 3s ease-in-out infinite',
 			},
+			fontFamily: {
+				roboto: ['"Roboto Flex"', '"Noto Sans Thai"', 'sans-serif'],
+			},
     	}
     },
     plugins: [require("tailwindcss-animate")],
