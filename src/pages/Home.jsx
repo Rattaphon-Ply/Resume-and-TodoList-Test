@@ -16,14 +16,14 @@ import TextMySkills from "@/components/home/skills/TextMySkills";
 const Home = () => {
   return (
     <div className="min-h-screen bg-background text-foreground transition-colors duration-300 animate-fade-in">
-      <div className="p-8 flex flex-col justify-center items-center">
+      <div className="p-8 flex flex-col justify-center items-center text-center">
         <PictureMe />
         <NameEng />
         <NameThai />
       </div>
 
       <div className="container mx-auto px-4 mt-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
         
           <div>
             <TextMyProjects />
