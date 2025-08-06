@@ -5,9 +5,9 @@ const PictureMe = () => {
   <div className="relative w-fit">
   <img
     src={Me}
-    className="w-48 object-cover rounded-xl shadow-lg transition duration-300 hover:scale-105"
+    className="w-48 z-10 object-cover rounded-xl shadow-lg transition duration-300 hover:scale-105"
   />
-  <div className="absolute inset-0 rounded-xl pointer-events-none animate-glow-ring z-[-1]"></div>
+  <div className="absolute inset-0 rounded-xl pointer-events-none animate-glow-ring z-0"></div>
 </div>
   )
 }
