@@ -24,7 +24,7 @@ const ProjectSection = () => {
     
   return (
     <div className="relative px-6 pr-6 py-6">
-        <div className="p-4 max-w-screen-lg mx-auto flex justify-center">
+        <div className="p-4 max-w-screen-lg mx-auto flex justify-center z-0 relative">
             <SwiperShow>
                 {projects.map((proj, i) => (
                     <SwiperSlide key={i}>
