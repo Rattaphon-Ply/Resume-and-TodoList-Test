@@ -44,7 +44,7 @@ const HeadAbout = () => {
   return (
     <div>
       <motion.h1
-        className="text-2xl font-bold mb-2 text-left flex"
+        className="text-2xl font-bold mb-2 text-left flex text-white"
         variants={container}
         initial="hidden"
         animate={controls}

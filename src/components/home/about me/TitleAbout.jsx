@@ -19,7 +19,7 @@ const TitleAbout = () => {
             >
                 <VariableProximity
                     label={'สวัสดีครับ ผมเป็นนักศึกษาจบใหม่ เกรดเฉลี่ย 3.57 กำลังมองหางานประจำในตำแหน่งนักพัฒนา (Developer) โดยมีเป้าหมายระยะยาวในการพัฒนาตนเองสู่การเป็น Full-Stack Developer ผมเป็นคนมีความรับผิดชอบ อดทน สามารถทำงานภายใต้ความกดดันได้ดี และพร้อมเปิดรับการเรียนรู้สิ่งใหม่ ๆ อยู่เสมอ'}
-                    className={'variable-proximity-demo leading-relaxed text-base lg:text-lg text-muted-foreground pl-8'}
+                    className={'variable-proximity-demo leading-relaxed text-base lg:text-lg text-muted-foreground pl-8 text-white'}
                     fromFontVariationSettings="'wght' 300"
                     toFontVariationSettings="'wght' 900"
                     containerRef={containerRef}

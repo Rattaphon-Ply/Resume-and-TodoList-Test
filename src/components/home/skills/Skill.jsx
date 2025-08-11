@@ -11,7 +11,7 @@ import { SiExpress } from "react-icons/si";
 
 const Skill = () => {
   return (
-    <ul className="grid grid-cols-2 md:grid-cols-4 gap-8 p-10">
+    <ul className="grid grid-cols-2 md:grid-cols-4 gap-8 p-10 text-white">
       <li className="flex flex-col items-center space-y-4">
         <div className="flex items-center space-x-2 transform transition duration-300 hover:-translate-y-2 hover:scale-105">
           <SiVite 

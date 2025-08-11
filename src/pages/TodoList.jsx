@@ -31,7 +31,7 @@ const TodoList = () => {
 
   return (
     <div className='min-h-screen bg-background text-foreground transition-colors duration-300 animate-fade-in'>
-      <div className="border p-8 rounded-md max-w-2xl mx-auto mt-4">
+      <div className="border p-8 rounded-md max-w-2xl mx-auto mt-20 text-white">
 
         <h1 className="capitalize text-2xl font-extrabold mb-4">Todo List</h1>
 

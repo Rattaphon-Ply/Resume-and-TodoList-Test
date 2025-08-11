@@ -1,15 +1,24 @@
 import { useEffect } from "react";
-import { useLocation } from "react-router";
+import { useLocation } from "react-router-dom";
 
 const ScrollToTop = () => {
+  const { pathname, hash } = useLocation();
 
-    const { pathname } = useLocation();
-    
-    useEffect(() => {
-    // ทุกครั้งที่ path เปลี่ยน ให้ scroll ขึ้นบนสุด
-    window.scrollTo(0, 0);
-  }, [pathname]);
+  useEffect(() => {
+    if (hash) {
+      // ต้องใช้ setTimeout เพื่อรอให้ DOM render ก่อน
+      setTimeout(() => {
+        const el = document.querySelector(hash);
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 0);
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }, [pathname, hash]);
 
   return null;
-}
-export default ScrollToTop
+};
+
+export default ScrollToTop;

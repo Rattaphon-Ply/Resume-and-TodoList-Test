@@ -1,9 +1,10 @@
 import Approutes from "./routes/Approutes"
 import '@/styles/globals.css';
+import Particles from "./components/home/backgrounds/Particles";
 
 const App = () => {
   return (
-    <div className="bg-[#F8F9FA] dark:bg-[hsl(200,83%,7%)] text-black dark:text-white transition-colors duration-300">
+    <div>
       <Approutes />
     </div>
   )

@@ -9,7 +9,7 @@ const Name = () => {
         pauseDuration={1500}
         showCursor={true}
         cursorCharacter="_"
-        textColors={"#6600FF"}
+        textColors={"#0033FF"}
     />
   )
 }

@@ -1,22 +1,16 @@
-import ThemeToggle from "../darkmode/ThemeToggle"
-import DropdownListMenu from "./DropdownListMenu"
 import Logo from "./Logo"
+import ScrollNav from "./ScrollNav"
 
 const Navbar = () => {
   return (
-    <nav>
-      
-        <div className="flex flex-col items-center px-6
-        py-4 justify-between sm:flex-row gap-4
-      bg-[#2C3E50] dark:bg-[#2C3E50] text-black dark:text-white transition-colors duration-300">
+    <nav className="fixed top-0 left-0 right-0 z-50">
+        <div className="flex items-center justify-between px-6 py-4
+       text-white bg-black/20 backdrop-blur-md border-b border-white/10">
             <Logo />
-            <div className="flex items-center space-x-4">
-              <ThemeToggle />
-              <DropdownListMenu />
+             <div className="">
+              <ScrollNav />
             </div>
-            
         </div>
-        
     </nav>
   )
 }
