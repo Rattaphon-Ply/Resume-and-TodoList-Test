@@ -12,6 +12,7 @@ import Skill from "@/components/home/skills/Skill";
 import TextMySkills from "@/components/home/skills/TextMySkills";
 import { motion } from "framer-motion";
 import FadeContent from "@/components/animate-fade/FadeContent";
+import AnimatedContent from "@/components/animate-fade/AnimatedContent";
 
 
 const Home = () => {
@@ -48,11 +49,24 @@ const Home = () => {
           </div>
         </section>
       </FadeContent>
-          
-      <section id="exp" className="min-h-screen scroll-mt-20">
-        <TextMyExp />
-        <ExperiencesAnimate />
-      </section>
+
+      <AnimatedContent
+        distance={100}
+        direction="horizontal"
+        reverse={true}
+        duration={1.9}
+        ease="bounce.out"
+        initialOpacity={0}
+        animateOpacity
+        scale={1.8}
+        threshold={0.1}
+        delay={0.3}
+      >
+        <section id="exp" className="min-h-screen scroll-mt-20 flex flex-col items-center justify-center">
+          <TextMyExp />
+          <ExperiencesAnimate />
+        </section>
+      </AnimatedContent>
 
       <motion.section id="skill" className="min-h-screen scroll-mt-20 flex items-center justify-center"
         initial={{ opacity: 0, y: 50 }}

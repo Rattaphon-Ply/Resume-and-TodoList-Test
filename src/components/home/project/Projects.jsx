@@ -62,13 +62,13 @@ const Projects = () => {
                   {Object.keys(project.description).join(', ')}
                 </MorphingDialogSubtitle>
               </div>
-              <button
-                type="button"
+              <span
+                
                 className="relative ml-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-lg border border-zinc-950/10 text-zinc-500 hover:bg-zinc-100 hover:text-zinc-800 focus-visible:ring-2 active:scale-[0.98] dark:border-zinc-50/10 dark:bg-zinc-900 dark:text-zinc-500 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:focus-visible:ring-zinc-500"
                 aria-label="Open dialog"
               >
                 <PlusIcon size={12} />
-              </button>
+              </span>
             </div>
           </MorphingDialogTrigger>
 
