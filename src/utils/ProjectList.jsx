@@ -37,8 +37,6 @@ export const projects = [
           "Axios",
           "React Toastify",
           "Lucide React",
-          "Lucide React",
-          "Lucide React",
           "React Hook Form",
           "Zod",
           "Zxcvbn",
