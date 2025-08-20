@@ -1,4 +1,4 @@
-import { SiReact, SiVite, SiTailwindcss, SiExpress, SiMysql, SiJavascript, SiNextdotjs } from "react-icons/si";
+import { SiReact, SiVite, SiTailwindcss, SiExpress, SiMysql, SiJavascript, SiNextdotjs, SiSupabase, SiPostman } from "react-icons/si";
 import { FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { TbBrandCSharp } from "react-icons/tb";
 
@@ -12,5 +12,7 @@ export const skills = [
     { Icon: SiJavascript, color: "#F7DF1E", label: "JavaScript" },
     { Icon: SiExpress, color: "#FFFFFF", label: "Express" },
     { Icon: SiMysql, color: "#4479A1", label: "MySQL" },
+    { Icon: SiSupabase, color: "#3ECF8E", label: "Supabase" },
     { Icon: TbBrandCSharp, color: "#512BD4", label: "C#" },
+    { Icon: SiPostman, color: "#FF6C37", label: "Postman" },
 ]
