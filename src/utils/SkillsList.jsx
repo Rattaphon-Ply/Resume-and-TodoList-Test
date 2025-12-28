@@ -2,15 +2,18 @@ import { SiReact, SiVite, SiTailwindcss, SiExpress, SiMysql, SiJavascript, SiNex
 import { FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { TbBrandCSharp } from "react-icons/tb";
 import vite from "../assets/vite.svg"
+import typescript from "../assets/typescript.svg"
 
 export const skills = [
     { img: vite, label: "Vite" }, // ใช้รูป },
     { Icon: SiReact, color: "#61DAFB", label: "React" },
+    { Icon: SiReact, color: "#61DAFB", label: "React Native" },
     { Icon: SiNextdotjs, color: "#FFFFFF", label: "Next" },
     { Icon: SiTailwindcss, color: "#38BDF8", label: "Tailwind CSS" },
     { Icon: FaHtml5, color: "#E34F26", label: "HTML5" },
     { Icon: FaCss3Alt, color: "#1572B6", label: "CSS3" },
     { Icon: SiJavascript, color: "#F7DF1E", label: "JavaScript" },
+    { img: typescript, label: "TypeScript" },
     { Icon: SiExpress, color: "#FFFFFF", label: "Express" },
     { Icon: SiMysql, color: "#4479A1", label: "MySQL" },
     { Icon: SiSupabase, color: "#3ECF8E", label: "Supabase" },
