@@ -3,6 +3,7 @@ import FP from '@/images/FinalProject.png';
 import Ecom from '@/images/Ecom.png'
 import Mini15Puzz from '@/images/MiniProject15Puzz.png';
 import booking from '@/images/Booking-System.png';
+import inventory from "@/images/Inventory-Management-System.png";
 
 export const projects = [
     {
@@ -88,6 +89,30 @@ export const projects = [
       },
       image: booking,
       projectUrl: "https://github.com/Rattaphon-Ply/Hotel-Booking-System",
+    },
+    {
+      title: "Inventory Management System",
+      description: {
+        GUI: [
+          "Python",
+          "Tkinter",
+          "ttk",
+          "Command-Line Interface (CLI)",
+        ],
+        Core_System: [
+          "XML Data Storage",
+          "XML Parsing (ElementTree)",
+          "CRUD Operations",
+          "Data Validation",
+          "Search & Sort",
+          "Advanced Filtering",
+          "Stock In / Stock Out",
+          "Transaction History",
+          "Inventory Reports",
+        ],
+      },
+      image: inventory,
+      projectUrl: "https://github.com/Rattaphon-Ply/Inventory-Management-System",
     },
     {
       title: "Todo List",
