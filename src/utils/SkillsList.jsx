@@ -1,8 +1,9 @@
-import { SiReact, SiVite, SiTailwindcss, SiExpress, SiMysql, SiJavascript, SiNextdotjs, SiSupabase, SiPostman } from "react-icons/si";
+import { SiReact, SiVite, SiTailwindcss, SiExpress, SiMysql, SiJavascript, SiNextdotjs, SiSupabase, SiPostman} from "react-icons/si";
 import { FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { TbBrandCSharp } from "react-icons/tb";
 import vite from "../assets/vite.svg"
 import typescript from "../assets/typescript.svg"
+import { PythonIcon } from "../components/icons/PythonIcon"
 
 export const skills = [
     { img: vite, label: "Vite" }, // ใช้รูป },
@@ -19,4 +20,5 @@ export const skills = [
     { Icon: SiSupabase, color: "#3ECF8E", label: "Supabase" },
     { Icon: TbBrandCSharp, color: "#512BD4", label: "C#" },
     { Icon: SiPostman, color: "#FF6C37", label: "Postman" },
+    { Icon: PythonIcon, color: "#3776AB", label: "Python" },
 ]
