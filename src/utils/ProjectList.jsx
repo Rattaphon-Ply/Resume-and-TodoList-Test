@@ -132,19 +132,6 @@ export const projects = [
   },
 
   {
-    title: "15 Puzzle Game",
-    category: "Web Game",
-    overview:
-      "A browser-based picture puzzle game developed using vanilla JavaScript.",
-    features: ["Interactive Picture Puzzle", "Game Timer", "Move Counter"],
-    techStack: {
-      Frontend: ["HTML", "CSS", "JavaScript"],
-    },
-    image: Mini15Puzz,
-    projectUrl: "https://puzzle-picture-4d45e.web.app/",
-  },
-
-  {
     title: "Todo List",
     category: "Frontend Development",
     overview:
